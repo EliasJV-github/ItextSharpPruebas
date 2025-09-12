@@ -1,0 +1,33 @@
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using System.IO;
+using System.Drawing;
+
+public class PDFGenerator
+{
+    public static void CrearPDFConQR(string rutaPDF, string textoQR, string rutaLogo = null)
+    {
+        // Generar QR
+        Bitmap qrBitmap = QRGenerator.GenerarQR(textoQR, rutaLogo);
+        byte[] qrBytes = QRGenerator.BitmapAByteArray(qrBitmap);
+        iTextSharp.text.Image qrImage = iTextSharp.text.Image.GetInstance(qrBytes);
+        qrImage.Alignment = Element.ALIGN_CENTER;
+
+        // Crear PDF
+        Document doc = new Document(PageSize.A4);
+        PdfWriter.GetInstance(doc, new FileStream(rutaPDF, FileMode.Create));
+        doc.Open();
+
+        // Agregar título
+        Paragraph titulo = new Paragraph("QR con texto, saltos de línea y logo");
+        titulo.Alignment = Element.ALIGN_CENTER;
+        doc.Add(titulo);
+
+        doc.Add(new Paragraph("\n")); // espacio
+
+        // Agregar QR
+        doc.Add(qrImage);
+
+        doc.Close();
+    }
+}

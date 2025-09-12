@@ -1,0 +1,41 @@
+using QRCoder;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
+
+public class QRGenerator
+{
+    public static Bitmap GenerarQR(string texto, string rutaLogo = null, int tamanioLogoPorcentaje = 15)
+    {
+        QRCodeGenerator qrGenerator = new QRCodeGenerator();
+        QRCodeData qrCodeData = qrGenerator.CreateQrCode(texto, QRCodeGenerator.ECCLevel.Q);
+        QRCode qrCode = new QRCode(qrCodeData);
+
+        Bitmap logo = null;
+        if (!string.IsNullOrEmpty(rutaLogo) && File.Exists(rutaLogo))
+        {
+            logo = (Bitmap)Image.FromFile(rutaLogo);
+        }
+
+        Bitmap qrCodeImage = qrCode.GetGraphic(
+            20,             // tamaño de cuadros
+            Color.Black,    // color de cuadros
+            Color.White,    // fondo
+            logo,           // logo
+            tamanioLogoPorcentaje, // tamaño del logo en %
+            6,              // borde del logo
+            true            // dibujar borde
+        );
+
+        return qrCodeImage;
+    }
+
+    public static byte[] BitmapAByteArray(Bitmap bmp)
+    {
+        using (MemoryStream ms = new MemoryStream())
+        {
+            bmp.Save(ms, ImageFormat.Png);
+            return ms.ToArray();
+        }
+    }
+}

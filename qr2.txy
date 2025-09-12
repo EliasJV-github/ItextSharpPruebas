@@ -1,0 +1,40 @@
+using System;
+using System.Drawing;
+using System.Drawing.Imaging;
+using ZXing;
+using ZXing.Common;
+
+class Program
+{
+    static void Main()
+    {
+        // Datos string que quieres codificar
+        string datosString = "Hola, este es mi código QR!";
+        
+        // Generar el código QR
+        Bitmap qrBitmap = GenerarCodigoQR(datosString, 300, 300);
+        
+        // Guardar la imagen
+        qrBitmap.Save("codigo_qr.png", ImageFormat.Png);
+        
+        Console.WriteLine("Código QR generado exitosamente!");
+    }
+    
+    public static Bitmap GenerarCodigoQR(string texto, int ancho, int alto)
+    {
+        // Configurar el writer del QR
+        var writer = new BarcodeWriter
+        {
+            Format = BarcodeFormat.QR_CODE,
+            Options = new EncodingOptions
+            {
+                Height = alto,
+                Width = ancho,
+                Margin = 2
+            }
+        };
+        
+        // Generar y retornar el bitmap
+        return writer.Write(texto);
+    }
+}

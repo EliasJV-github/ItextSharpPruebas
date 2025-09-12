@@ -1,0 +1,61 @@
+using System;
+using System.Drawing;
+using System.Drawing.Imaging;
+using ZXing;
+using ZXing.Common;
+
+class Program
+{
+    static void Main()
+    {
+        // Datos string que quieres codificar
+        string datosString = "Hola, este es mi código QR!";
+        
+        // Generar el código QR
+        Bitmap qrBitmap = GenerarCodigoQR(datosString, 300, 300);
+        
+        // Guardar la imagen
+        qrBitmap.Save("codigo_qr.png", ImageFormat.Png);
+        
+        Console.WriteLine("Código QR generado exitosamente!");
+        
+        // Limpiar memoria
+        qrBitmap.Dispose();
+    }
+    
+    public static Bitmap GenerarCodigoQR(string texto, int ancho, int alto)
+    {
+        // Usar BarcodeWriterPixelData en lugar de BarcodeWriter
+        var writer = new BarcodeWriterPixelData
+        {
+            Format = BarcodeFormat.QR_CODE,
+            Options = new EncodingOptions
+            {
+                Height = alto,
+                Width = ancho,
+                Margin = 2
+            }
+        };
+        
+        // Generar los datos de píxeles
+        var pixelData = writer.Write(texto);
+        
+        // Crear bitmap desde los datos de píxeles
+        var bitmap = new Bitmap(pixelData.Width, pixelData.Height, PixelFormat.Format32bppRgb);
+        var bitmapData = bitmap.LockBits(new Rectangle(0, 0, pixelData.Width, pixelData.Height), 
+            ImageLockMode.WriteOnly, PixelFormat.Format32bppRgb);
+        
+        try
+        {
+            // Copiar los datos de píxeles al bitmap
+            System.Runtime.InteropServices.Marshal.Copy(pixelData.Pixels, 0, 
+                bitmapData.Scan0, pixelData.Pixels.Length);
+        }
+        finally
+        {
+            bitmap.UnlockBits(bitmapData);
+        }
+        
+        return bitmap;
+    }
+}

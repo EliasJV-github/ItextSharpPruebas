@@ -1,0 +1,926 @@
+{
+    "agent_id": "agent_2101kj7psbxffgzv2sc9g34xdfq9",
+    "agent_name": "Agente_Mesa-Dinero_V2",
+    "status": "done",
+    "user_id": "+59172105566",
+    "branch_id": "agtbrch_8801kj7pscmqfgjb26j98hf4xevn",
+    "version_id": "agtvrsn_5701kjt83vytfnc8c220t63jy38x",
+    "metadata": {
+        "start_time_unix_secs": 1773071131,
+        "accepted_time_unix_secs": 1773071131,
+        "call_duration_secs": 73,
+        "cost": 783,
+        "deletion_settings": {
+            "deletion_time_unix_secs": null,
+            "deleted_logs_at_time_unix_secs": null,
+            "deleted_audio_at_time_unix_secs": null,
+            "deleted_transcript_at_time_unix_secs": null,
+            "delete_transcript_and_pii": false,
+            "delete_audio": false
+        },
+        "feedback": {
+            "type": null,
+            "overall_score": null,
+            "likes": 0,
+            "dislikes": 0,
+            "rating": null,
+            "comment": null
+        },
+        "authorization_method": "signed_url",
+        "charging": {
+            "dev_discount": false,
+            "is_burst": false,
+            "tier": "enterprise",
+            "llm_usage": {
+                "irreversible_generation": {
+                    "model_usage": {
+                        "gpt-4o-mini": {
+                            "input": {
+                                "tokens": 14035,
+                                "price": 0.00210525
+                            },
+                            "input_cache_read": {
+                                "tokens": 3456,
+                                "price": 0.0002592
+                            },
+                            "input_cache_write": {
+                                "tokens": 0,
+                                "price": 0.0
+                            },
+                            "output_total": {
+                                "tokens": 171,
+                                "price": 0.0001026
+                            }
+                        }
+                    }
+                },
+                "initiated_generation": {
+                    "model_usage": {
+                        "gpt-4o-mini": {
+                            "input": {
+                                "tokens": 17355,
+                                "price": 0.00260325
+                            },
+                            "input_cache_read": {
+                                "tokens": 6912,
+                                "price": 0.0005184
+                            },
+                            "input_cache_write": {
+                                "tokens": 0,
+                                "price": 0.0
+                            },
+                            "output_total": {
+                                "tokens": 232,
+                                "price": 0.0001392
+                            }
+                        }
+                    }
+                }
+            },
+            "llm_price": 0.00326085,
+            "llm_charge": 32,
+            "call_charge": 751,
+            "free_minutes_consumed": 0.0,
+            "free_llm_dollars_consumed": 0.0
+        },
+        "phone_call": {
+            "direction": "outbound",
+            "phone_number_id": "phnum_4901kaxnfr7ee4hvhpz1wcxwtesy",
+            "agent_number": "+59122172022",
+            "external_number": "+59172105566",
+            "type": "sip_trunking",
+            "call_sid": "SCL_FP2GWYA4n5J7"
+        },
+        "batch_call": {
+            "batch_call_id": "btcal_8001kk9kej66fpct6zk0mr3yykqz",
+            "batch_call_recipient_id": "rcpt_9201kk9kej8gefgbdmm6xa0pzv76"
+        },
+        "termination_reason": "Client disconnected: 1000",
+        "error": null,
+        "warnings": [],
+        "main_language": "es",
+        "rag_usage": null,
+        "text_only": false,
+        "features_usage": {
+            "language_detection": {
+                "enabled": false,
+                "used": false
+            },
+            "transfer_to_agent": {
+                "enabled": false,
+                "used": false
+            },
+            "transfer_to_number": {
+                "enabled": false,
+                "used": false
+            },
+            "multivoice": {
+                "enabled": false,
+                "used": false
+            },
+            "dtmf_tones": {
+                "enabled": true,
+                "used": false
+            },
+            "external_mcp_servers": {
+                "enabled": false,
+                "used": false
+            },
+            "pii_zrm_workspace": false,
+            "pii_zrm_agent": false,
+            "tool_dynamic_variable_updates": {
+                "enabled": false,
+                "used": false
+            },
+            "is_livekit": true,
+            "voicemail_detection": {
+                "enabled": true,
+                "used": false
+            },
+            "workflow": {
+                "enabled": false,
+                "tool_node": {
+                    "enabled": false,
+                    "used": false
+                },
+                "standalone_agent_node": {
+                    "enabled": false,
+                    "used": false
+                },
+                "phone_number_node": {
+                    "enabled": false,
+                    "used": false
+                },
+                "end_node": {
+                    "enabled": false,
+                    "used": false
+                }
+            },
+            "agent_testing": {
+                "enabled": false,
+                "tests_ran_after_last_modification": false,
+                "tests_ran_in_last_7_days": false
+            },
+            "versioning": {
+                "enabled": true,
+                "used": false
+            }
+        },
+        "eleven_assistant": {
+            "is_eleven_assistant": false
+        },
+        "initiator_id": null,
+        "conversation_initiation_source": "sip_trunk",
+        "conversation_initiation_source_version": null,
+        "timezone": "America/La_Paz",
+        "async_metadata": null,
+        "whatsapp": null,
+        "agent_created_from": "ui",
+        "agent_last_updated_from": "ui"
+    },
+    "analysis": {
+        "evaluation_criteria_results": {},
+        "data_collection_results": {
+            "nivel_interes": {
+                "data_collection_id": "nivel_interes",
+                "value": "interesado",
+                "json_schema": {
+                    "type": "string",
+                    "description": "es el nivel de interés que tiene el cliente con la conversación, la opción por defecto es otros",
+                    "enum": [
+                        "interesado",
+                        "sin interes",
+                        "cliente no encontrado",
+                        "buzón de voz detectado",
+                        "no se sabe si tiene interés o no",
+                        "otros"
+                    ],
+                    "is_system_provided": false,
+                    "dynamic_variable": "",
+                    "constant_value": ""
+                },
+                "rationale": "El usuario respondió explícitamente \"Sí, me interesaría\" cuando el agente le preguntó si le interesaría conocer más sobre los productos y servicios de Mesa de Dinero. Esto indica un claro interés en la conversación."
+            },
+            "ciudad": {
+                "data_collection_id": "ciudad",
+                "value": "Santa Cruz",
+                "json_schema": {
+                    "type": "string",
+                    "description": "La ciudad indicada por el cliente",
+                    "enum": [
+                        "La Paz",
+                        "Oruro",
+                        "Santa Cruz",
+                        "Beni",
+                        "Potosí",
+                        "Cochabamba",
+                        "Sucre",
+                        "Tarija"
+                    ],
+                    "is_system_provided": false,
+                    "dynamic_variable": "",
+                    "constant_value": ""
+                },
+                "rationale": "El usuario indica claramente 'Santa Cruz' como la ciudad donde se encuentran sus oficinas en el mensaje 'user at 2026-03-09T11:46:07-04:00: Santa Cruz. Santa Cruz, Verde. No sé a dónde. A aquí.' y lo confirma en 'user at 2026-03-09T11:46:19-04:00: Sí.' cuando el agente le pide confirmación. 'Santa Cruz' es uno de los valores permitidos en el enum."
+            }
+        },
+        "evaluation_criteria_results_list": [],
+        "data_collection_results_list": [
+            {
+                "data_collection_id": "nivel_interes",
+                "value": "interesado",
+                "json_schema": {
+                    "type": "string",
+                    "description": "es el nivel de interés que tiene el cliente con la conversación, la opción por defecto es otros",
+                    "enum": [
+                        "interesado",
+                        "sin interes",
+                        "cliente no encontrado",
+                        "buzón de voz detectado",
+                        "no se sabe si tiene interés o no",
+                        "otros"
+                    ],
+                    "is_system_provided": false,
+                    "dynamic_variable": "",
+                    "constant_value": ""
+                },
+                "rationale": "El usuario respondió explícitamente \"Sí, me interesaría\" cuando el agente le preguntó si le interesaría conocer más sobre los productos y servicios de Mesa de Dinero. Esto indica un claro interés en la conversación."
+            },
+            {
+                "data_collection_id": "ciudad",
+                "value": "Santa Cruz",
+                "json_schema": {
+                    "type": "string",
+                    "description": "La ciudad indicada por el cliente",
+                    "enum": [
+                        "La Paz",
+                        "Oruro",
+                        "Santa Cruz",
+                        "Beni",
+                        "Potosí",
+                        "Cochabamba",
+                        "Sucre",
+                        "Tarija"
+                    ],
+                    "is_system_provided": false,
+                    "dynamic_variable": "",
+                    "constant_value": ""
+                },
+                "rationale": "El usuario indica claramente 'Santa Cruz' como la ciudad donde se encuentran sus oficinas en el mensaje 'user at 2026-03-09T11:46:07-04:00: Santa Cruz. Santa Cruz, Verde. No sé a dónde. A aquí.' y lo confirma en 'user at 2026-03-09T11:46:19-04:00: Sí.' cuando el agente le pide confirmación. 'Santa Cruz' es uno de los valores permitidos en el enum."
+            }
+        ],
+        "call_successful": "success",
+        "transcript_summary": "The conversation began with an agent from Banco de Crédito BCP offering \"Mesa de Dinero\" services for preferential conditions on international transfers. The user expressed interest, and in response to the agent's request for a meeting location, specified \"Santa Cruz.\" The agent confirmed that a bank official, Valeria Bass Werner, would contact the user shortly to coordinate a meeting. The call concluded with mutual thanks.",
+        "call_summary_title": "Mesa Dinero Offer"
+    },
+    "conversation_initiation_client_data": {
+        "conversation_config_override": {
+            "turn": null,
+            "tts": {
+                "voice_id": null,
+                "stability": null,
+                "speed": null,
+                "similarity_boost": null
+            },
+            "conversation": null,
+            "agent": {
+                "first_message": null,
+                "language": null,
+                "prompt": null
+            }
+        },
+        "custom_llm_extra_body": {},
+        "user_id": null,
+        "source_info": {
+            "source": null,
+            "version": null
+        },
+        "dynamic_variables": {
+            "CIC": "01137705",
+            "client_name": "BOLIBANANA SRL",
+            "client_city": "SANTA CRUZ",
+            "agent_region": "ORIENTE",
+            "tipo": "Per. Juridica",
+            "system__agent_id": "agent_2101kj7psbxffgzv2sc9g34xdfq9",
+            "system__agent_turns": 6,
+            "system__current_agent_turns": 6,
+            "system__current_subagent_turns": 6,
+            "system__current_agent_id": "agent_2101kj7psbxffgzv2sc9g34xdfq9",
+            "system__conversation_id": "conv_8501kk9mcf9qepxvxa49ejr8c6m6",
+            "system__call_duration_secs": 72,
+            "system__time_utc": "2026-03-09T15:46:44.769244+00:00",
+            "system__time": "Monday, 11:46 09 March 2026",
+            "system__timezone": "America/La_Paz",
+            "system__caller_id": "+59122172022",
+            "system__called_number": "+59172105566",
+            "system__call_sid": "SCL_FP2GWYA4n5J7"
+        }
+    },
+    "environment": "production",
+    "hiding_reason": null,
+    "conversation_id": "conv_8501kk9mcf9qepxvxa49ejr8c6m6",
+    "has_audio": true,
+    "has_user_audio": true,
+    "has_response_audio": true,
+    "transcript": [
+        {
+            "role": "user",
+            "agent_metadata": null,
+            "message": "Muchas gracias. Hola.",
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 1,
+            "conversation_turn_metrics": {
+                "metrics": {
+                    "convai_asr_trailing_service_latency": {
+                        "elapsed_time": 0.10551372600002651
+                    }
+                },
+                "convai_asr_provider": "Original ASR",
+                "convai_tts_model": null
+            },
+            "rag_retrieval_info": null,
+            "llm_usage": null,
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": "audio",
+            "file_input": null
+        },
+        {
+            "role": "agent",
+            "agent_metadata": {
+                "agent_id": "agent_2101kj7psbxffgzv2sc9g34xdfq9",
+                "branch_id": "agtbrch_8801kj7pscmqfgjb26j98hf4xevn",
+                "workflow_node_id": "node_01kj7pv96nfvpsn4bges7jhm9v",
+                "version_id": "agtvrsn_5701kjt83vytfnc8c220t63jy38x"
+            },
+            "message": "Buenos días, mi nombre es Olivia y soy funcionaria del Banco de Crédito BCP. El motivo de mi llamada es para ofrecerle los productos y servicios de Mesa de Dinero, área encargada de negociar condiciones preferenciales para transferencias recibidas desde el exterior. ¿Le interesaría conocer más sobre esto?",
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 3,
+            "conversation_turn_metrics": {
+                "metrics": {
+                    "convai_llm_service_ttf_sentence": {
+                        "elapsed_time": 0.7326964400000406
+                    },
+                    "convai_llm_service_ttfb": {
+                        "elapsed_time": 0.4298275209999929
+                    },
+                    "convai_llm_service_tt_last_sentence": {
+                        "elapsed_time": 1.3833853190000127
+                    },
+                    "convai_tts_service_ttfb": {
+                        "elapsed_time": 0.10847102100001393
+                    }
+                },
+                "convai_asr_provider": null,
+                "convai_tts_model": "eleven_flash_v2_5"
+            },
+            "rag_retrieval_info": null,
+            "llm_usage": {
+                "model_usage": {
+                    "gpt-4o-mini": {
+                        "input": {
+                            "tokens": 3380,
+                            "price": 0.000507
+                        },
+                        "input_cache_read": {
+                            "tokens": 0,
+                            "price": 0.0
+                        },
+                        "input_cache_write": {
+                            "tokens": 0,
+                            "price": 0.0
+                        },
+                        "output_total": {
+                            "tokens": 64,
+                            "price": 3.84e-05
+                        }
+                    }
+                }
+            },
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": null,
+            "file_input": null
+        },
+        {
+            "role": "user",
+            "agent_metadata": null,
+            "message": "Sí, me interesaría.",
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 21,
+            "conversation_turn_metrics": {
+                "metrics": {
+                    "convai_asr_trailing_service_latency": {
+                        "elapsed_time": 0.10176547699995808
+                    }
+                },
+                "convai_asr_provider": "Original ASR",
+                "convai_tts_model": null
+            },
+            "rag_retrieval_info": null,
+            "llm_usage": null,
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": "audio",
+            "file_input": null
+        },
+        {
+            "role": "agent",
+            "agent_metadata": {
+                "agent_id": "agent_2101kj7psbxffgzv2sc9g34xdfq9",
+                "branch_id": "agtbrch_8801kj7pscmqfgjb26j98hf4xevn",
+                "workflow_node_id": "node_01kj7pv96nfvpsn4bges7jhm9v",
+                "version_id": "agtvrsn_5701kjt83vytfnc8c220t63jy38x"
+            },
+            "message": "Perfecto, le comento que para coordinar una reunión y explicarle a detalle nuestros productos y servicios, ¿podría indicarme la ciudad donde se encuentran sus oficinas?",
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 26,
+            "conversation_turn_metrics": {
+                "metrics": {
+                    "convai_llm_service_ttf_sentence": {
+                        "elapsed_time": 1.1179555469999514
+                    },
+                    "convai_llm_service_ttfb": {
+                        "elapsed_time": 0.8759990070000185
+                    },
+                    "convai_llm_service_tt_last_sentence": {
+                        "elapsed_time": 1.5006328160000066
+                    },
+                    "convai_tts_service_ttfb": {
+                        "elapsed_time": 0.12224232199992002
+                    }
+                },
+                "convai_asr_provider": null,
+                "convai_tts_model": "eleven_flash_v2_5"
+            },
+            "rag_retrieval_info": null,
+            "llm_usage": {
+                "model_usage": {
+                    "gpt-4o-mini": {
+                        "input": {
+                            "tokens": 3457,
+                            "price": 0.00051855
+                        },
+                        "input_cache_read": {
+                            "tokens": 0,
+                            "price": 0.0
+                        },
+                        "input_cache_write": {
+                            "tokens": 0,
+                            "price": 0.0
+                        },
+                        "output_total": {
+                            "tokens": 36,
+                            "price": 2.1599999999999996e-05
+                        }
+                    }
+                }
+            },
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": null,
+            "file_input": null
+        },
+        {
+            "role": "user",
+            "agent_metadata": null,
+            "message": "Santa Cruz. Santa Cruz, Verde. No sé a dónde. A aquí.",
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 36,
+            "conversation_turn_metrics": {
+                "metrics": {
+                    "convai_asr_trailing_service_latency": {
+                        "elapsed_time": 0.21999776500001644
+                    }
+                },
+                "convai_asr_provider": "Original ASR",
+                "convai_tts_model": null
+            },
+            "rag_retrieval_info": null,
+            "llm_usage": null,
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": "audio",
+            "file_input": null
+        },
+        {
+            "role": "agent",
+            "agent_metadata": {
+                "agent_id": "agent_2101kj7psbxffgzv2sc9g34xdfq9",
+                "branch_id": "agtbrch_8801kj7pscmqfgjb26j98hf4xevn",
+                "workflow_node_id": "node_01kj7pv96nfvpsn4bges7jhm9v",
+                "version_id": "agtvrsn_5701kjt83vytfnc8c220t63jy38x"
+            },
+            "message": "Solo para confirmar, la ciudad es Santa Cruz, ¿correcto?",
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 43,
+            "conversation_turn_metrics": {
+                "metrics": {
+                    "convai_llm_service_ttf_sentence": {
+                        "elapsed_time": 1.1916541240000242
+                    },
+                    "convai_llm_service_ttfb": {
+                        "elapsed_time": 0.9565935919999902
+                    },
+                    "convai_llm_service_tt_last_sentence": {
+                        "elapsed_time": 1.210098529999982
+                    },
+                    "convai_tts_service_ttfb": {
+                        "elapsed_time": 0.1202289179999525
+                    }
+                },
+                "convai_asr_provider": null,
+                "convai_tts_model": "eleven_flash_v2_5"
+            },
+            "rag_retrieval_info": null,
+            "llm_usage": {
+                "model_usage": {
+                    "gpt-4o-mini": {
+                        "input": {
+                            "tokens": 3516,
+                            "price": 0.0005274
+                        },
+                        "input_cache_read": {
+                            "tokens": 0,
+                            "price": 0.0
+                        },
+                        "input_cache_write": {
+                            "tokens": 0,
+                            "price": 0.0
+                        },
+                        "output_total": {
+                            "tokens": 15,
+                            "price": 9e-06
+                        }
+                    }
+                }
+            },
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": null,
+            "file_input": null
+        },
+        {
+            "role": "user",
+            "agent_metadata": null,
+            "message": "Sí.",
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 48,
+            "conversation_turn_metrics": {
+                "metrics": {
+                    "convai_asr_trailing_service_latency": {
+                        "elapsed_time": 0.1402616059999673
+                    }
+                },
+                "convai_asr_provider": "Original ASR",
+                "convai_tts_model": null
+            },
+            "rag_retrieval_info": null,
+            "llm_usage": null,
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": "audio",
+            "file_input": null
+        },
+        {
+            "role": "agent",
+            "agent_metadata": {
+                "agent_id": "agent_2101kj7psbxffgzv2sc9g34xdfq9",
+                "branch_id": "agtbrch_8801kj7pscmqfgjb26j98hf4xevn",
+                "workflow_node_id": "node_01kj7pv96nfvpsn4bges7jhm9v",
+                "version_id": "agtvrsn_5701kjt83vytfnc8c220t63jy38x"
+            },
+            "message": "Muchas gracias por la confirmación. El funcionario Valeria Bass Werner se pondrá en contacto con usted en las próximas horas para coordinar la reunión. ¿Hay algo más en lo que pueda ayudarle?",
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 50,
+            "conversation_turn_metrics": {
+                "metrics": {
+                    "convai_llm_service_ttf_sentence": {
+                        "elapsed_time": 0.9676233200000297
+                    },
+                    "convai_llm_service_ttfb": {
+                        "elapsed_time": 0.7593692730000612
+                    },
+                    "convai_llm_service_tt_last_sentence": {
+                        "elapsed_time": 1.5145899350000036
+                    },
+                    "convai_tts_service_ttfb": {
+                        "elapsed_time": 0.09169765599995117
+                    }
+                },
+                "convai_asr_provider": null,
+                "convai_tts_model": "eleven_flash_v2_5"
+            },
+            "rag_retrieval_info": null,
+            "llm_usage": {
+                "model_usage": {
+                    "gpt-4o-mini": {
+                        "input": {
+                            "tokens": 84,
+                            "price": 1.26e-05
+                        },
+                        "input_cache_read": {
+                            "tokens": 3456,
+                            "price": 0.0002592
+                        },
+                        "input_cache_write": {
+                            "tokens": 0,
+                            "price": 0.0
+                        },
+                        "output_total": {
+                            "tokens": 42,
+                            "price": 2.52e-05
+                        }
+                    }
+                }
+            },
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": null,
+            "file_input": null
+        },
+        {
+            "role": "user",
+            "agent_metadata": null,
+            "message": "No, no, no. Gracias mucho.",
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 60,
+            "conversation_turn_metrics": {
+                "metrics": {
+                    "convai_asr_trailing_service_latency": {
+                        "elapsed_time": 0.18247391899990362
+                    }
+                },
+                "convai_asr_provider": "Original ASR",
+                "convai_tts_model": null
+            },
+            "rag_retrieval_info": null,
+            "llm_usage": null,
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": "audio",
+            "file_input": null
+        },
+        {
+            "role": "agent",
+            "agent_metadata": {
+                "agent_id": "agent_2101kj7psbxffgzv2sc9g34xdfq9",
+                "branch_id": "agtbrch_8801kj7pscmqfgjb26j98hf4xevn",
+                "workflow_node_id": "node_01kj7pv96nfvpsn4bges7jhm9v",
+                "version_id": "agtvrsn_5701kjt83vytfnc8c220t63jy38x"
+            },
+            "message": "Agradezco su tiempo. Que tenga un excelente día.",
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 64,
+            "conversation_turn_metrics": {
+                "metrics": {
+                    "convai_llm_service_ttf_sentence": {
+                        "elapsed_time": 0.8183474349999642
+                    },
+                    "convai_llm_service_ttfb": {
+                        "elapsed_time": 0.6171293510000169
+                    },
+                    "convai_llm_service_tt_last_sentence": {
+                        "elapsed_time": 0.9182436830000142
+                    },
+                    "convai_tts_service_ttfb": {
+                        "elapsed_time": 0.09407198100007008
+                    }
+                },
+                "convai_asr_provider": null,
+                "convai_tts_model": "eleven_flash_v2_5"
+            },
+            "rag_retrieval_info": null,
+            "llm_usage": {
+                "model_usage": {
+                    "gpt-4o-mini": {
+                        "input": {
+                            "tokens": 3598,
+                            "price": 0.0005396999999999999
+                        },
+                        "input_cache_read": {
+                            "tokens": 0,
+                            "price": 0.0
+                        },
+                        "input_cache_write": {
+                            "tokens": 0,
+                            "price": 0.0
+                        },
+                        "output_total": {
+                            "tokens": 14,
+                            "price": 8.400000000000001e-06
+                        }
+                    }
+                }
+            },
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": null,
+            "file_input": null
+        },
+        {
+            "role": "user",
+            "agent_metadata": null,
+            "message": "Gracias. Igual hasta luego.",
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 67,
+            "conversation_turn_metrics": {
+                "metrics": {
+                    "convai_asr_trailing_service_latency": {
+                        "elapsed_time": 0.13428520399997979
+                    }
+                },
+                "convai_asr_provider": "Original ASR",
+                "convai_tts_model": null
+            },
+            "rag_retrieval_info": null,
+            "llm_usage": null,
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": "audio",
+            "file_input": null
+        },
+        {
+            "role": "agent",
+            "agent_metadata": {
+                "agent_id": "agent_2101kj7psbxffgzv2sc9g34xdfq9",
+                "branch_id": "agtbrch_8801kj7pscmqfgjb26j98hf4xevn",
+                "workflow_node_id": "node_01kj7pv96nfvpsn4bges7jhm9v",
+                "version_id": "agtvrsn_5701kjt83vytfnc8c220t63jy38x"
+            },
+            "message": "Muchas...",
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 72,
+            "conversation_turn_metrics": {
+                "metrics": {
+                    "convai_llm_service_ttfb": {
+                        "elapsed_time": 1.593419334000032
+                    },
+                    "convai_llm_tool_request_generation_latency": {
+                        "elapsed_time": 1.594357213999956
+                    },
+                    "convai_tts_service_ttfb": {
+                        "elapsed_time": 0.09715650300006473
+                    }
+                },
+                "convai_asr_provider": null,
+                "convai_tts_model": "eleven_flash_v2_5"
+            },
+            "rag_retrieval_info": null,
+            "llm_usage": null,
+            "interrupted": true,
+            "original_message": "Muchas gracias por su tiempo, hasta pronto.",
+            "source_medium": null,
+            "file_input": null
+        },
+        {
+            "role": "agent",
+            "agent_metadata": {
+                "agent_id": "agent_2101kj7psbxffgzv2sc9g34xdfq9",
+                "branch_id": "agtbrch_8801kj7pscmqfgjb26j98hf4xevn",
+                "workflow_node_id": "node_01kj7pv96nfvpsn4bges7jhm9v",
+                "version_id": "agtvrsn_5701kjt83vytfnc8c220t63jy38x"
+            },
+            "message": null,
+            "multivoice_message": null,
+            "tool_calls": [
+                {
+                    "type": "system",
+                    "request_id": "call_kbhn6QWF9b8rknf84ERok96V",
+                    "tool_name": "end_call",
+                    "params_as_json": "{\"reason\":\"La conversación ha llegado a una conclusión natural y el usuario está satisfecho.\",\"system__message_to_speak\":\"Muchas gracias por su tiempo, hasta pronto.\"}",
+                    "tool_has_been_called": false,
+                    "tool_details": null
+                }
+            ],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 72,
+            "conversation_turn_metrics": {
+                "metrics": {
+                    "convai_llm_service_ttfb": {
+                        "elapsed_time": 1.593419334000032
+                    },
+                    "convai_llm_tool_request_generation_latency": {
+                        "elapsed_time": 1.594357213999956
+                    },
+                    "convai_tts_service_ttfb": {
+                        "elapsed_time": 0.09715650300006473
+                    }
+                },
+                "convai_asr_provider": null,
+                "convai_tts_model": "eleven_flash_v2_5"
+            },
+            "rag_retrieval_info": null,
+            "llm_usage": null,
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": null,
+            "file_input": null
+        },
+        {
+            "role": "agent",
+            "agent_metadata": {
+                "agent_id": "agent_2101kj7psbxffgzv2sc9g34xdfq9",
+                "branch_id": "agtbrch_8801kj7pscmqfgjb26j98hf4xevn",
+                "workflow_node_id": "node_01kj7pv96nfvpsn4bges7jhm9v",
+                "version_id": "agtvrsn_5701kjt83vytfnc8c220t63jy38x"
+            },
+            "message": null,
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [
+                {
+                    "request_id": "call_kbhn6QWF9b8rknf84ERok96V",
+                    "tool_name": "end_call",
+                    "result_value": "Tool execution was abandoned because the call ended before the tool could complete",
+                    "is_error": true,
+                    "tool_has_been_called": false,
+                    "tool_latency_secs": 0.0,
+                    "error_type": "unknown",
+                    "raw_error_message": "",
+                    "dynamic_variable_updates": [],
+                    "type": "system",
+                    "result": null
+                }
+            ],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 72,
+            "conversation_turn_metrics": null,
+            "rag_retrieval_info": null,
+            "llm_usage": null,
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": null,
+            "file_input": null
+        },
+        {
+            "role": "user",
+            "agent_metadata": null,
+            "message": "Gracias. Igual hasta luego.",
+            "multivoice_message": null,
+            "tool_calls": [],
+            "tool_results": [],
+            "feedback": null,
+            "llm_override": null,
+            "time_in_call_secs": 70,
+            "conversation_turn_metrics": null,
+            "rag_retrieval_info": null,
+            "llm_usage": null,
+            "interrupted": false,
+            "original_message": null,
+            "source_medium": null,
+            "file_input": null
+        }
+    ]
+}

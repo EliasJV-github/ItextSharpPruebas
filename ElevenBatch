@@ -1,0 +1,5172 @@
+{
+    "id": "btcal_8001kk9kej66fpct6zk0mr3yykqz",
+    "phone_number_id": "phnum_4901kaxnfr7ee4hvhpz1wcxwtesy",
+    "phone_provider": "sip_trunk",
+    "whatsapp_params": null,
+    "name": "Agente-Mesa_Dinero-090326_1",
+    "agent_id": "agent_2101kj7psbxffgzv2sc9g34xdfq9",
+    "created_at_unix": 1773070141,
+    "scheduled_time_unix": 1773070141,
+    "timezone": null,
+    "total_calls_dispatched": 132,
+    "total_calls_scheduled": 132,
+    "total_calls_finished": 130,
+    "last_updated_at_unix": 1773071271,
+    "status": "completed",
+    "retry_count": 0,
+    "telephony_call_config": {
+        "ringing_timeout_secs": 60
+    },
+    "target_concurrency_limit": null,
+    "agent_name": "Agente_Mesa-Dinero_V2",
+    "recipients": [
+        {
+            "id": "rcpt_0001kk9kej96ebs9vtc3xmhb8mtw",
+            "phone_number": "+59168226129",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070177,
+            "conversation_id": "conv_6101kk9kem2wfak8ps04gw2hvj3q",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01329627",
+                    "client_name": "BOMOSER S.A. BOLIVIANA DE MONTAJES Y SERVICIOS S.A.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0101kk9kej6pfrhs175qarx857jx",
+            "phone_number": "+59177839691",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070191,
+            "conversation_id": "conv_9501kk9kem36eje8p8jcfhfw9etz",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00362714",
+                    "client_name": "MIGUEL ANGEL MARIACA COIMBRA",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0101kk9kej8qepwa9tnxsxmyxxcf",
+            "phone_number": "+59172044515",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070181,
+            "conversation_id": "conv_9901kk9kem3xfvsvhd21f7ejarbt",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01226563",
+                    "client_name": "EMPRESA DE IMPORTACIONES EXPORTACIONES RECICLANDOSE BOLIVIA S.R.L..",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0201kk9kej6ve9ps3tfgrakjf98q",
+            "phone_number": "+59171889808",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070252,
+            "conversation_id": "conv_0201kk9kemtce26rs2ds8a7pvv8v",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00421351",
+                    "client_name": "JOSE ISRAEL CORDOVA MURILLO",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0301kk9kej8afhnahsahc04mvqsq",
+            "phone_number": "+59161236436",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070182,
+            "conversation_id": "conv_8201kk9kem31fsc9sg4f79m9yxtx",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00975665",
+                    "client_name": "TRANSPORTE INTERNACIONAL DE CARGA BRANDON TRUCKS S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0401kk9kej71ev1rj6gvs037rfm9",
+            "phone_number": "+59177377770",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070198,
+            "conversation_id": "conv_8801kk9kembcf1jb6hmy81kxce03",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00488600",
+                    "client_name": "ALFA NATURA S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0401kk9kej8pfk88eh8wswby59kr",
+            "phone_number": "+59178683752",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070162,
+            "conversation_id": "conv_1401kk9kem7te71ae4q53y5c8fk7",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01225396",
+                    "client_name": "JUAN CARLOS MARTINEZ RAMOS",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0401kk9kekdff7aseh7wtj4nw5m3",
+            "phone_number": "+59178100100",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070209,
+            "conversation_id": "conv_2601kk9kem36ep28g2b1022qd99f",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01512974",
+                    "client_name": "LENNART CALUSTRO TORRICO",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0501kk9kej6rfy8ajvm39r7w74rm",
+            "phone_number": "+59171564997",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070187,
+            "conversation_id": "conv_1201kk9kemjjfsv8g484dn6apd65",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00378838",
+                    "client_name": "SUSAN CLAUDIA VASQUEZ YANEZ",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0501kk9kej7jeeprkkrsrj2xbdsz",
+            "phone_number": "+59177779654",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070257,
+            "conversation_id": "conv_3501kk9kem3mfqkaykm6ryj7f6qk",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00613067",
+                    "client_name": "EMPRESA DE TRANSPORTE DE CARGA C Y M SRL",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0601kk9kej7nexnrnrpxqfzca0ek",
+            "phone_number": "+59178511914",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070164,
+            "conversation_id": "conv_7301kk9kem3df2jbth0hwasaw3jk",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00686882",
+                    "client_name": "PAGOS S.R.L",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0601kk9kekdefevb2x9jveejp09w",
+            "phone_number": "+59175729056",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070279,
+            "conversation_id": "conv_0901kk9kem36fys87d705dpf33jg",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01494681",
+                    "client_name": "MINERA ICHO PAMPITA SRL",
+                    "client_city": "POTOSI",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0801kk9kej83fkgv1q0svzy8ayt3",
+            "phone_number": "+59168922382",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070209,
+            "conversation_id": "conv_8601kk9kem34fe4b96zan0g58n83",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00897230",
+                    "client_name": "RIGMASTER S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0801kk9kej8fetebbqf89fn78kvh",
+            "phone_number": "+59175897616",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070244,
+            "conversation_id": "conv_0501kk9kf4t0fzgswxzsakr1j7mw",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01119208",
+                    "client_name": "JUAN DANIEL ROMAN SERRATH",
+                    "client_city": "BENI",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_0901kk9kej89eyetsm513rrncqzz",
+            "phone_number": "+59172614146",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070238,
+            "conversation_id": "conv_1801kk9khfzxezc9p8dd0607saf6",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00957261",
+                    "client_name": "UTILAR S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_1101kk9kej7mftjb1vhph23gpmtm",
+            "phone_number": "+59169040011",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070237,
+            "conversation_id": "conv_5501kk9khffzez79y6ypfa3ry5c6",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00657790",
+                    "client_name": "C TRANS S.R.L",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_1101kk9kej9ae5tapfmd4118bk10",
+            "phone_number": "+59179819838",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070319,
+            "conversation_id": "conv_4001kk9khe17ecqvkm3q6qx7h5h7",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01337885",
+                    "client_name": "HUGO CESAR CORTEZ ZENTENO",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_1201kk9kej90e7ttbt33cf0b6722",
+            "phone_number": "+59176647999",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070273,
+            "conversation_id": "conv_3301kk9khehdeavtysmv27r88p78",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01292870",
+                    "client_name": "ISSASIERRA S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_1201kk9kej93e7p9nhaebe4ea80n",
+            "phone_number": "+59167156541",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070238,
+            "conversation_id": "conv_4001kk9khfqrf5s8wwax5307kk10",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01318477",
+                    "client_name": "TRANSPORTES BRIESCOBAR S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_1301kk9kekcwe4mbap3deemrmyt2",
+            "phone_number": "+59165486894",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070237,
+            "conversation_id": "conv_2901kk9khf1mfxx9az1z5xgcdrqn",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01343939",
+                    "client_name": "EMPRESA MINDEPO S.R.L",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_1301kk9kekdcega9maddkmh6z858",
+            "phone_number": "+59174203936",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070320,
+            "conversation_id": "conv_2301kk9kjcrnf9xt6xth14rffjfm",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01460293",
+                    "client_name": "EMPRESA MINERA VALLE DE PLATA S.R.L.",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_1601kk9kej7zf2584xw2pg10mm2z",
+            "phone_number": "+59167478854",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070339,
+            "conversation_id": "conv_5001kk9kjc15evps28jt2qbgv4tp",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00838944",
+                    "client_name": "ALEJANDRO LOPEZ BUENDIA",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_1601kk9kekd5eds8m2z2hc3ff2q5",
+            "phone_number": "+59176462277",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070358,
+            "conversation_id": "conv_5601kk9kjc9ceqv8bwzpkfnhx7gj",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01392326",
+                    "client_name": "TRANSSENAI S.R.L.",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_1901kk9kej69ewxrxrrq5qyvaara",
+            "phone_number": "+59177979338",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070393,
+            "conversation_id": "conv_7801kk9kjcgse9e80paz3mnzb19c",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00121042",
+                    "client_name": "WILLAMS ANTEZANA SOTOMAYOR",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_1901kk9kekdhf1ysrjdcggh5kgff",
+            "phone_number": "+59163712509",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070461,
+            "conversation_id": "conv_1101kk9knarkfhk9zs44ckrex6s0",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01521052",
+                    "client_name": "ROMEL HUANCA OLIVERA",
+                    "client_city": "POTOSI",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_1901kk9kekdqfxwvyq1kd21w2vh0",
+            "phone_number": "+59177941980",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070434,
+            "conversation_id": "conv_1901kk9kna8feac9pjk6vfqmf03g",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01858716",
+                    "client_name": "GRUPO EMPRESARIAL BRAMAX S.R.L.",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2001kk9kej7af1hbd50qznebmxpp",
+            "phone_number": "+59171611540",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070364,
+            "conversation_id": "conv_3801kk9knazwenpahnwb81sck1pf",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00566597",
+                    "client_name": "EMPRESA DE TRANSPORTES INTERNACIONAL DE CARGA ESTRELLA DEL ORIENTE S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2001kk9kej8ye6rthgv290t2sava",
+            "phone_number": "+59167476256",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070367,
+            "conversation_id": "conv_4401kk9kndxqfk5ate6z9fsgznbw",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01290993",
+                    "client_name": "CIFORESTAL S.R.L",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2101kk9kej68fj6btjr2t4eg6f49",
+            "phone_number": "+59177521477",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070365,
+            "conversation_id": "conv_2001kk9knc76fz0b3v7e39atkqra",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00091466",
+                    "client_name": "MAX AYLLON ALARCON",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2101kk9kej7wfm7sc7682x1v4wbt",
+            "phone_number": "+59162221284",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070365,
+            "conversation_id": "conv_3701kk9knbzdew0bbmjmvvhmyx70",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00811453",
+                    "client_name": "COMPANIA COMERCIALIZADORA DE MAQUINARIA PUNTOMAQ S",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2101kk9kej97ehf8ewy3gz7sms5w",
+            "phone_number": "+59172203862",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070366,
+            "conversation_id": "conv_5501kk9kncppfer9z755kppw30w3",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01330274",
+                    "client_name": "ELITE CARGO S.R.L",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2101kk9kekd1fvyt1w07tdsg77j9",
+            "phone_number": "+59176544000",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070365,
+            "conversation_id": "conv_6901kk9knbrped5rs5jsh8yjk75t",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01366981",
+                    "client_name": "EMPRESA MINERA BEDROCK S.R.L.",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2201kk9kej6nef5a4qm94z9f7vzd",
+            "phone_number": "+59170079151",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070367,
+            "conversation_id": "conv_7301kk9kndnveb7s03wttbb7cfvs",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00354681",
+                    "client_name": "EDGAR GUZMAN PAZ",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2201kk9kej8jfa6b76e4v9mxp985",
+            "phone_number": "+59177449278",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070367,
+            "conversation_id": "conv_9901kk9kne6cfmq9je7ae1cy7wq1",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01172634",
+                    "client_name": "PROCWIRA S.R.L.",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2201kk9kekd8e8pb0vtsbtbw428g",
+            "phone_number": "+59169733577",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070368,
+            "conversation_id": "conv_6101kk9knfd2e5v9fgxkb095xh61",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01430269",
+                    "client_name": "NEOAGRUM BOLIVIA AGROPECUARIA S.A.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2301kk9kej8df2bbm48vxn7hymt7",
+            "phone_number": "+59174220997",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070367,
+            "conversation_id": "conv_1701kk9knee3e7dad1tpsvm1r2mr",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01110853",
+                    "client_name": "EMPRESA MINERA VIRGEN DE COTOCA S.R.L.",
+                    "client_city": "POTOSI",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2401kk9kej7gfbdrmr9r55hrsjce",
+            "phone_number": "+59172000626",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070533,
+            "conversation_id": "conv_8601kk9krw19e07bvr3y05pfm9gf",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00584670",
+                    "client_name": "FEPROM SOLUTIONS S.R.L",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2501kk9kej7kfb7ts4xm0h9w7jx8",
+            "phone_number": "+59179678978",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070574,
+            "conversation_id": "conv_6001kk9krwrmfbjt05d83q6nx59b",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00620528",
+                    "client_name": "IGEL SERVICIOS INTEGRALES DE MARKETING S.R.L",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2501kk9kej7te7frta77gnxs4709",
+            "phone_number": "+59169700702",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070548,
+            "conversation_id": "conv_3001kk9krxg1fq7sz1qqkmqq6xrt",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00769401",
+                    "client_name": "MARIO GONZALO PRADO ESPINOZA",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2601kk9kekcxfa78cvq5pnnfbv5r",
+            "phone_number": "+59176139810",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070528,
+            "conversation_id": "conv_9701kk9krwgpe9jrzhwyb4n8wx1c",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01343940",
+                    "client_name": "SAN LAZARO S.R.L.",
+                    "client_city": "ORURO",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2601kk9kekd3emv9dsm69d2hjx0w",
+            "phone_number": "+59176769564",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070520,
+            "conversation_id": "conv_0301kk9krw8yegq80fxk22bxc0v1",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01388932",
+                    "client_name": "REALWOOD S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2601kk9kekdjfd4thgscqz2kk6x6",
+            "phone_number": "+59170134435",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070561,
+            "conversation_id": "conv_1401kk9krz6ffwws697193adkb0m",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01548161",
+                    "client_name": "RELIUS PHARMA S.R.L.",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2701kk9kej8kf8f9rcxk5h86ndnf",
+            "phone_number": "+59171733554",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070503,
+            "conversation_id": "conv_3401kk9ksjqqerergmgd2f2mptbs",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01197556",
+                    "client_name": "TRANS CATALUNIA S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_2901kk9kekd2fyvtv7yj9peszk6q",
+            "phone_number": "+59170449309",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070503,
+            "conversation_id": "conv_4301kk9ksjzveqqr84jqmf2ajzkk",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01373372",
+                    "client_name": "DEMERGE BOLIVIA S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_3001kk9kej6zebwtvtr7tydrgfet",
+            "phone_number": "+59167347877",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070547,
+            "conversation_id": "conv_1701kk9ksj7ye2z84vv7ggtppwps",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00454550",
+                    "client_name": "FLEXO PRINT S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_3001kk9kekdsfhyvt4jc05xms350",
+            "phone_number": "+59177022195",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070503,
+            "conversation_id": "conv_6901kk9ksjften589jkd2tq5epb9",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "CLIA09057820",
+                    "client_name": "AGENCIA DE MARKETINGPROMOCIONAL LUCKY BOLIVIA S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_3301kk9kej8beyesmdyd5wknbq1f",
+            "phone_number": "+59177700008",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070534,
+            "conversation_id": "conv_5801kk9ksj08fkn81pfvrkwr170z",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01043313",
+                    "client_name": "INSIGNIA S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_3301kk9kekdbfxtaj3kxqf7jw6wn",
+            "phone_number": "+59169971712",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070565,
+            "conversation_id": "conv_1301kk9ktfjgem8s27egbxrcz4jh",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01459874",
+                    "client_name": "YINGTAO SRL",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_3401kk9kej72fv3ssy2v1e3wd9rh",
+            "phone_number": "+59177020722",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070587,
+            "conversation_id": "conv_3501kk9ktjgtfkg9235kp4p2hcrd",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00504285",
+                    "client_name": "TRANS TOTO S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_3501kk9kej8zfpv98wevdedgerkw",
+            "phone_number": "+59174261144",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070634,
+            "conversation_id": "conv_4101kk9ktbdgfzzrxywydxch2f9k",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01291086",
+                    "client_name": "TRANS LATINBOL S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_3701kk9kej6gfc6a207fnq7frep5",
+            "phone_number": "+59165050536",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070587,
+            "conversation_id": "conv_3801kk9kths1ffkv5r5erqsrt77h",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00313800",
+                    "client_name": "SIKA BOLIVIA S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_3701kk9kej6wejete1087mckgqb4",
+            "phone_number": "+59171411224",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070603,
+            "conversation_id": "conv_9101kk9ktg21ercbd656wyz9q9ww",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00422652",
+                    "client_name": "TRANSPORTE SABI S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_3701kk9kekdnex08fpr9xhdnhvmz",
+            "phone_number": "+59175094624",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070599,
+            "conversation_id": "conv_3501kk9ktf2vetjrnjcxt4egdax2",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01722459",
+                    "client_name": "ALIMENTOS PROCESADOS DE BOLIVIA AGRO ALPROBOL AGRO S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_3901kk9kej7sfc8r3pqpx13m6y0b",
+            "phone_number": "+59175055578",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070626,
+            "conversation_id": "conv_1201kk9kvk8dfwj85nwp7znz60th",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00748354",
+                    "client_name": "TIENDA AMIGA ER S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_3901kk9kej88f159nmt6jf4h9j10",
+            "phone_number": "+59169674640",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070596,
+            "conversation_id": "conv_0601kk9kvk0efrtsdgceefe9f437",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00930739",
+                    "client_name": "SMARBOL CARGO S.R.L.",
+                    "client_city": "SUCRE",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_4201kk9kej84fg1bnqa1w7dp63w4",
+            "phone_number": "+59171549221",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070662,
+            "conversation_id": "conv_1901kk9kvkrjfjtbhgb8fny8fpr1",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00905459",
+                    "client_name": "TRADINTER BOLIVIA S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_4201kk9kekd4f71b452xbqq972pn",
+            "phone_number": "+59178688630",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070587,
+            "conversation_id": "conv_5101kk9kvjs8fqgrk15zg5jszj16",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01390295",
+                    "client_name": "COMERCIALIZADORA DE MINERALES V&C SRL",
+                    "client_city": "POTOSI",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_4301kk9kej6jeydrv9fzw4jfkwrv",
+            "phone_number": "+59178005559",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070623,
+            "conversation_id": "conv_7301kk9kvhxwft48v3hr92esht29",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00319321",
+                    "client_name": "MICROSOFT BOLIVIA SRL.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_4401kk9kej6bfsjr3ny75jft0mfz",
+            "phone_number": "+59172550102",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070663,
+            "conversation_id": "conv_2801kk9kvkgnfmkvwbmpghpjbvyy",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00191508",
+                    "client_name": "EMPRESA NACIONAL DE TELECOMUNICACIONES S.A. ENTEL S.A.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_4501kk9kekd9e6r95bd7wcm5qtq4",
+            "phone_number": "+59175596100",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070703,
+            "conversation_id": "conv_3901kk9ky18gesqbbdg6wyp4n6ga",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01441749",
+                    "client_name": "SOYAGRAIN SRL",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_4501kk9kekdpe0qr68ex3stsv3f4",
+            "phone_number": "+59175004022",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070649,
+            "conversation_id": "conv_2901kk9ky1gkf2fsdzw763n6733y",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01823862",
+                    "client_name": "MARYSOL PENA ARTEAGA",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_4701kk9kej6sfv0v8mt6bmkdn4ey",
+            "phone_number": "+59172028705",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070650,
+            "conversation_id": "conv_2201kk9ky2r5e0z8z2prhf5f00gj",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00381339",
+                    "client_name": "WILBER CHURATA HUARACHI",
+                    "client_city": "POTOSI",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_4701kk9kej79f6vthrkm0cxy4cny",
+            "phone_number": "+59172090900",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070651,
+            "conversation_id": "conv_5101kk9ky3fdf3x9nrx784tnw0xr",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00547752",
+                    "client_name": "EMPRESA MINERA MARTE S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_5001kk9kej78fcnayzde8ng0jew0",
+            "phone_number": "+59165360506",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070651,
+            "conversation_id": "conv_7801kk9ky37heynvgv12cad22t54",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00528263",
+                    "client_name": "CALLES AMARILLAS S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_5101kk9kekdmek38fxxznmh9vnmb",
+            "phone_number": "+59172194208",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070651,
+            "conversation_id": "conv_6001kk9ky2z5fvma456as97c39t3",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01671162",
+                    "client_name": "EMPRESA MINERA ZINCORP BOLIVIA SRL..R.L.",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_5201kk9kej99etxa826f7cfwwm1e",
+            "phone_number": "+59171913022",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070651,
+            "conversation_id": "conv_1601kk9ky3qdfe19kd1ns3ken9qg",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01335684",
+                    "client_name": "TRANSPORTES GHANIMA S.R.L",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_5401kk9kej6ef0hae4t1evk2ay9y",
+            "phone_number": "+59179426888",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070652,
+            "conversation_id": "conv_0201kk9ky46yf2c8fy8vf387k517",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00211569",
+                    "client_name": "GREGORIO MAMANI FERNANDEZ",
+                    "client_city": "ORURO",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_5401kk9kej73fv3bzkfc3vrdk79f",
+            "phone_number": "+59178080102",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070650,
+            "conversation_id": "conv_5701kk9ky20tf5mbw6b6hgap3bz1",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00507569",
+                    "client_name": "JEROME YANN CYRILLE JULIEN NN",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_5401kk9kej8nej9vy8czk9ype11a",
+            "phone_number": "+59167400426",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070651,
+            "conversation_id": "conv_5701kk9ky3ypemwvvpkd04rp04yv",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01203176",
+                    "client_name": "ABCARGO S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_5501kk9kej74fexa1t3bzfb0fj6t",
+            "phone_number": "+59173221436",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070689,
+            "conversation_id": "conv_1701kk9ky28hfrasws6d6g7g5sgz",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00514461",
+                    "client_name": "BORIS VLADIMIR MEZA ARCE",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_5701kk9kekdafx1r3v4d0j420zve",
+            "phone_number": "+59171828780",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070650,
+            "conversation_id": "conv_3501kk9ky2fbfr08nd4881zhnaqj",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01443564",
+                    "client_name": "COMERCIALIZADORA DE MINERALES SUMAJ LLAJ",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_5801kk9kej76f71s1yf5cnsm59xt",
+            "phone_number": "+59172675543",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070833,
+            "conversation_id": "conv_7401kk9m0x9kf1fbf3de6hq6m2gb",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00520832",
+                    "client_name": "D.A.S. BOLIVIA S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_5801kk9kej7ve72bg44d36p8mkke",
+            "phone_number": "+59173098818",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070783,
+            "conversation_id": "conv_0501kk9m0yghe86vzqct8jcar9w7",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00796129",
+                    "client_name": "ESTABLECIMIENTO DE SALUD CENTRAL DE EMER",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_5801kk9kej7xf5y8t1vnsr8ygyte",
+            "phone_number": "+59175665267",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070823,
+            "conversation_id": "conv_7501kk9m0z80f3j84c4rs90caar4",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00830644",
+                    "client_name": "MOVEMOS TU MARCA S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_5801kk9kej94e8z9dfq7ped3wyer",
+            "phone_number": "+59168098736",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070811,
+            "conversation_id": "conv_6901kk9m0x5cea99s4het0b9qnzf",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01318549",
+                    "client_name": "W.I.C. LOGISTICS S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_5801kk9kekdkf9jv6e693zpdsy0z",
+            "phone_number": "+59176773788",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070786,
+            "conversation_id": "conv_5801kk9m0xj5fner4t8rxc405b16",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01591590",
+                    "client_name": "INDUSTRIA Y COMERCIO ALICONSUMO S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_6201kk9kej7hf069bxraexqt3pzm",
+            "phone_number": "+59176437614",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070822,
+            "conversation_id": "conv_0301kk9m0z09em09d3cv0zsnndm4",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00612019",
+                    "client_name": "EMPRESA DE TRANSPORTE NACIONAL E INTERNACIONAL Q-TRANS S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_6301kk9kej8re1jv3dv89etx7pf3",
+            "phone_number": "+59168869340",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070863,
+            "conversation_id": "conv_7001kk9m0yrce70s3fezd6rv50gf",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01231798",
+                    "client_name": "TRANSPORTES ALCARZ S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_6301kk9kej8wet1r682ncdf18ctf",
+            "phone_number": "+59175265486",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070793,
+            "conversation_id": "conv_8101kk9m0zzae3rtq70q70ywvh4y",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01273473",
+                    "client_name": "INNOVAPACK LOGISTICS S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_6401kk9kej6cewvtfk53bkesnmpk",
+            "phone_number": "+59171327106",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070810,
+            "conversation_id": "conv_5901kk9m0zfyejpb2fjynp6pbpwn",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00194749",
+                    "client_name": "NESTLE BOLIVIA S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_6401kk9kej6mfjsvfq8zhht8qs6j",
+            "phone_number": "+59176005175",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070786,
+            "conversation_id": "conv_3301kk9m107ffnybx7fk9j3ckd15",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00339766",
+                    "client_name": "YARA BOLIVIA FERTILIZANTES S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_6501kk9kej75fk1sg2wdxqba086p",
+            "phone_number": "+59172504363",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070819,
+            "conversation_id": "conv_2701kk9m0y8vfxw8nqtd6mgan894",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00517734",
+                    "client_name": "SERVICIOS AMBIENTALES SOCIEDAD ANONIMA",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_6601kk9kej7ef9v83ak35phfy8kr",
+            "phone_number": "+59177291771",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070851,
+            "conversation_id": "conv_9401kk9m27h0eedv84zhv1azh5ns",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00577481",
+                    "client_name": "SERVEI S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_6701kk9kej6df09ammfz089kfpbs",
+            "phone_number": "+59172121327",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070844,
+            "conversation_id": "conv_8501kk9m29s1fmktchmswjt37x6x",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00195452",
+                    "client_name": "BRINKS BOLIVIA S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_6901kk9kej70exhtg96q6hmkqvc4",
+            "phone_number": "+59171558954",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070854,
+            "conversation_id": "conv_0101kk9m29fne6vb3s62mwb8j2nj",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00480350",
+                    "client_name": "TREKBOLIVIA ADVENTURE TRAVEL SPECIALIST SRL",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_6901kk9kekczesk9hhrdxz7nmjtq",
+            "phone_number": "+59169267244",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070888,
+            "conversation_id": "conv_4101kk9m3mpseycs537rve7dzc8q",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01355213",
+                    "client_name": "EMPRESA DE LOGISTICA GROUPEXIMCARGO S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7001kk9kej6yfs7s94wwwtz3r1v7",
+            "phone_number": "+59172010005",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070898,
+            "conversation_id": "conv_5501kk9m3q8hevg8kf59zy7e31c4",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00431429",
+                    "client_name": "PROFESIONALES EN TALENTO S.R.L.",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7001kk9kej7yf5wb80nbf9ey2ffh",
+            "phone_number": "+59167199002",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070926,
+            "conversation_id": "conv_0801kk9m3mvcf4brxqjhjve4kxj0",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00831528",
+                    "client_name": "KEMFA SERVICIOS INVERSIONES Y REPRESENTACIONES S.A.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7201kk9kej7qf5yvj4877dnkwdqt",
+            "phone_number": "+59167708928",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070895,
+            "conversation_id": "conv_5101kk9m3mngerjvet4ycnttf90p",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00738586",
+                    "client_name": "BOLIVIA INDUSTRIA DE BATERIAS BATEBOL S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7301kk9kej77es3stgd3akyhzpfq",
+            "phone_number": "+59178114486",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070857,
+            "conversation_id": "conv_7601kk9m3mn2e4zr9h1y0jkv16tj",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00528086",
+                    "client_name": "SANDRA MABEL LENZ KAMPISTAKI",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7401kk9kej7beszr2qk7x4t6drz4",
+            "phone_number": "+59179376209",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070880,
+            "conversation_id": "conv_4101kk9m3mn2e8h96ywn5pehyhmv",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00575288",
+                    "client_name": "VICTOR NN MEDINA",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7501kk9kekcvft9ryz4wqk0k56av",
+            "phone_number": "+59172760893",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070897,
+            "conversation_id": "conv_8001kk9m3nbefdfv5h8jt44f53x4",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01338521",
+                    "client_name": "NITZA FLORINDA UGARTE LLAMPA",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7601kk9kej82f3ma7r34xwwc9rmv",
+            "phone_number": "+59172111103",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070875,
+            "conversation_id": "conv_7601kk9m3mvte5cv2953ye5xxsnq",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00850616",
+                    "client_name": "INDUSTRIA TEXTIL TSM S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7601kk9kekd0e8pa9pg9e7zbz1vw",
+            "phone_number": "+59177677534",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070835,
+            "conversation_id": "conv_1301kk9m3ps0fv28z29tgfkbtq2x",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01365766",
+                    "client_name": "RIDETECH BOL S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7701kk9kej6afmtas5mykxnkxe1k",
+            "phone_number": "+59171767499",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070871,
+            "conversation_id": "conv_9201kk9m3mnnf8h97zw2435qf6kp",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00161462",
+                    "client_name": "WILDER QUINTEROS GUARDIA",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7701kk9kej80fz7th37f63ehe0a7",
+            "phone_number": "+59172206644",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070910,
+            "conversation_id": "conv_4501kk9m51fremttchsgq4pfyy47",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00840381",
+                    "client_name": "LOGISTICS CARGO LINE S.R.L.",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7701kk9kej8efg48zrgbb7p3vdcq",
+            "phone_number": "+59176002141",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071018,
+            "conversation_id": "conv_4501kk9m5377frgtexd6847q6xbg",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01116191",
+                    "client_name": "LOS CHARRUAS S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7701kk9kekd6f2388y6v4nddtvxy",
+            "phone_number": "+59177045260",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070998,
+            "conversation_id": "conv_4101kk9m4ya4e3zbf1t1kcvnp743",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01406092",
+                    "client_name": "TRACOMLIQUIDOS S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7801kk9kej81ev8t5ctzc9790kt7",
+            "phone_number": "+59176230368",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070935,
+            "conversation_id": "conv_6501kk9m52yge5p9hperrhxtmzdq",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00844184",
+                    "client_name": "TRANSPORTES DIGNIDAD S.R.L",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7801kk9kej8tenxvf80hm903tf20",
+            "phone_number": "+59172398787",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070944,
+            "conversation_id": "conv_2801kk9m522pfanr82hg6wp2jdjd",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01249583",
+                    "client_name": "COMERCIALIZADORA DE MINERALES ELIJAH SRL",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7901kk9kej8hek4a3fs85ezd3eyv",
+            "phone_number": "+59169447545",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070891,
+            "conversation_id": "conv_6401kk9m52r3fshs9jzv7pt38f7r",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01171342",
+                    "client_name": "TRANS DBRAUG S.R.L.",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_7901kk9kekcyegm8f07d5sq4egd0",
+            "phone_number": "+59169973238",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070917,
+            "conversation_id": "conv_9101kk9m5274e65brd3v6p0j22jj",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01354353",
+                    "client_name": "GUILLERMO LEON PLATA CAMACHO",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8001kk9kej6tfmvaws6yrned02kn",
+            "phone_number": "+59171596963",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070967,
+            "conversation_id": "conv_4001kk9m6rtnf9mv64py89h742k2",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00414330",
+                    "client_name": "PAPELERA VINTO S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8001kk9kej8sfdqvp6ra0r3rs6n7",
+            "phone_number": "+59173593126",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071026,
+            "conversation_id": "conv_1301kk9m6s9hfa4a1z84n1d8rxzx",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01248253",
+                    "client_name": "TRANSMG S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8201kk9kej87ez1scbmtsqnqts3m",
+            "phone_number": "+59167126722",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071084,
+            "conversation_id": "conv_7501kk9m6q9af2c9h5ksdxtb8dvn",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00925685",
+                    "client_name": "AMESURCO SRL",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8301kk9kej67ecqvvmfhsfy67vb8",
+            "phone_number": "+59172105566",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071045,
+            "conversation_id": "conv_5201kk9m6rm7f4gtbmvybwcee5e6",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00039656",
+                    "client_name": "LENA CAROLA TORRELIO DE EID",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8301kk9kej98f7ea6vkajt1tsccj",
+            "phone_number": "+59160840331",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773070994,
+            "conversation_id": "conv_1201kk9m6pmbe3capnxqe771drng",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01333693",
+                    "client_name": "ALMA SRL",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8401kk9kej8mevc9nfe4en0z6gra",
+            "phone_number": "+59162007637",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071058,
+            "conversation_id": "conv_3001kk9m96mhejh869348ntt99nz",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01203165",
+                    "client_name": "COCIANNI S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8501kk9kej85f0tt8q7xmt2zpxb3",
+            "phone_number": "+59169877168",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071082,
+            "conversation_id": "conv_3601kk9m95weez6a93mzdagd3x9p",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00920981",
+                    "client_name": "SOCIEDAD DE ALIMENTOS PROCESADOS SANTIAGO S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8501kk9kej95f35a6f1wnegs4y56",
+            "phone_number": "+59170274868",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071028,
+            "conversation_id": "conv_5501kk9m98t5fqhvdrhqf9r9wgbk",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01324521",
+                    "client_name": "OOHALAC BOLIVIA S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8501kk9kekd7eba8wk95wj8arp16",
+            "phone_number": "+59169080086",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071085,
+            "conversation_id": "conv_7801kk9m98jxetptykszzq66gv4n",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01407546",
+                    "client_name": "BOLIVIAN AGROTRADER S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8601kk9kej6qfybbvkt5ys3md1kv",
+            "phone_number": "+59174660061",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071043,
+            "conversation_id": "conv_0601kk9m97v7f7maxc1atsay61y7",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00368286",
+                    "client_name": "REPSOL EYP BOLIVIA S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8701kk9kej86fcp86v9av8dcsed7",
+            "phone_number": "+59175012955",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071089,
+            "conversation_id": "conv_4501kk9m936hexj8ktn5gezngfqj",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00923014",
+                    "client_name": "GRAFITTO SRL",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8701kk9kej91ebj8dqw5205qs6n0",
+            "phone_number": "+59162563386",
+            "whatsapp_user_id": null,
+            "status": "failed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071031,
+            "conversation_id": "conv_8901kk9m945tf3qtpgk0zmgc12jf",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01297147",
+                    "client_name": "HENG JIU COMERCIAL S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8801kk9kej7df1sstcp0xs722p2z",
+            "phone_number": "+59177348261",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071064,
+            "conversation_id": "conv_8401kk9m97c9e4ss3yzr9p00sqzn",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00577389",
+                    "client_name": "AGRICOLA SEMILLERA AGROSEM S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8901kk9kej6fe2799xpgn71xspg7",
+            "phone_number": "+59177038988",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071092,
+            "conversation_id": "conv_7801kk9m96vrejsa7kbk45ywbd0r",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00258149",
+                    "client_name": "NEXSYS DE BOLIVIA S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_8901kk9kekdgenbstcy0z788415k",
+            "phone_number": "+59163088046",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071152,
+            "conversation_id": "conv_4901kk9mcej9e46rn3ckq7bvz7q8",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01517265",
+                    "client_name": "ORIENTEBOL EMPRESA MINERA S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9001kk9kekdtefpt39qrc64yrqg7",
+            "phone_number": "+59177602231",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071175,
+            "conversation_id": "conv_0001kk9mckbcexvrgzjrxh2zjwhx",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "CLIA09058008",
+                    "client_name": "ISAINGENIERIA S.A.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9201kk9kej6hfhrshd3fmy6n19rv",
+            "phone_number": "+59176510010",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071180,
+            "conversation_id": "conv_8501kk9mcetmf6wsfrkr4z3faaaw",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00314290",
+                    "client_name": "TODOCENTRO SRL",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9201kk9kej7rfv69v0jk9y4bfth1",
+            "phone_number": "+59177243434",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071220,
+            "conversation_id": "conv_5301kk9mce2retgvgyjavxm1c754",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00742238",
+                    "client_name": "REPRESENTACIONES AREQUIPA IMPORTACIONES EXPORTACIONES S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9201kk9kej8gefgbdmm6xa0pzv76",
+            "phone_number": "+59172105566",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071210,
+            "conversation_id": "conv_8501kk9mcf9qepxvxa49ejr8c6m6",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01137705",
+                    "client_name": "BOLIBANANA SRL",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9201kk9kej8vfq0rza540hyyw7ep",
+            "phone_number": "+59178322543",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071226,
+            "conversation_id": "conv_9001kk9mcdkjep1b0hfrtnz7zp1k",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01268350",
+                    "client_name": "FLEXOSOLUTIONS BOLIVIA S.R.L.",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9201kk9kej8xe9er47369sr95wec",
+            "phone_number": "+59176006433",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071204,
+            "conversation_id": "conv_9201kk9mcf2bejv8qwdh925bkajv",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01274106",
+                    "client_name": "ROADGOLD S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9301kk9kej7perxr62g54k1az3t5",
+            "phone_number": "+59177042333",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071246,
+            "conversation_id": "conv_8301kk9mdknweh9v18y2secbppz2",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00732115",
+                    "client_name": "TRANSANIC S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9401kk9kej6xf8ytdc7gke831x28",
+            "phone_number": "+59178056374",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071202,
+            "conversation_id": "conv_9101kk9mdm2bewhsw74a2gsbyz4y",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00430357",
+                    "client_name": "INGENIO SUCROALCOHOLERO AGUAI S.A.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9401kk9kekdrfx0bdd9kf194k9ss",
+            "phone_number": "+59170589031",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071214,
+            "conversation_id": "conv_8101kk9mdk62f0ytkzwna73kdkw3",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "CLIA09057660",
+                    "client_name": "SELINA OPERATION LA PAZ S.R.L.",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9601kk9kej7cfq49as54kv7385mw",
+            "phone_number": "+59177710800",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071238,
+            "conversation_id": "conv_2001kk9mdjfwenmshvgskxgbz71r",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00576279",
+                    "client_name": "LUIS ENRIQUE HUANCA ANTINAPA",
+                    "client_city": "LA PAZ",
+                    "agent_region": "OCCIDENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9601kk9kekddekp8vveffwddax8q",
+            "phone_number": "+59169139622",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071202,
+            "conversation_id": "conv_3901kk9mdjpdfgd8vzcyn4y6yqqp",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01463182",
+                    "client_name": "PHARMACARE SRL",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9701kk9kej92fmgta27a7gr6cmsq",
+            "phone_number": "+59176971010",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071243,
+            "conversation_id": "conv_2101kk9mdke6e3w820y4s9qmpm9p",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01297522",
+                    "client_name": "TECNOLOGIA COLABORATIVA EXPORT S.R.L",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9801kk9kej6kfzkvcxm48mdhwphh",
+            "phone_number": "+59170981906",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071232,
+            "conversation_id": "conv_6701kk9mdhzff2tsnyqx8drged14",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00334989",
+                    "client_name": "CARLOS MARIO ROJAS LANGENBACHER",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Natural"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9801kk9kej8ce85vqs915zhrk4j3",
+            "phone_number": "+59160734684",
+            "whatsapp_user_id": null,
+            "status": "completed",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071248,
+            "conversation_id": "conv_6801kk9mdjyxfwrr4qepdb6dq222",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "01062247",
+                    "client_name": "ECO GRANOS S.R.L",
+                    "client_city": "COCHABAMBA",
+                    "agent_region": "CENTRO",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        },
+        {
+            "id": "rcpt_9901kk9kej7ferg9ygec7tapzr3v",
+            "phone_number": "+59175006364",
+            "whatsapp_user_id": null,
+            "status": "voicemail",
+            "created_at_unix": 1773070141,
+            "updated_at_unix": 1773071271,
+            "conversation_id": "conv_2201kk9mf12xfpjbvb992jpj7fp1",
+            "conversation_initiation_client_data": {
+                "conversation_config_override": {
+                    "turn": null,
+                    "tts": {
+                        "voice_id": null,
+                        "stability": null,
+                        "speed": null,
+                        "similarity_boost": null
+                    },
+                    "conversation": null,
+                    "agent": {
+                        "first_message": null,
+                        "language": null,
+                        "prompt": null
+                    }
+                },
+                "custom_llm_extra_body": {},
+                "user_id": null,
+                "source_info": {
+                    "source": null,
+                    "version": null
+                },
+                "dynamic_variables": {
+                    "CIC": "00583134",
+                    "client_name": "INSIGHT CONSULTING S.R.L.",
+                    "client_city": "SANTA CRUZ",
+                    "agent_region": "ORIENTE",
+                    "tipo": "Per. Juridica"
+                }
+            }
+        }
+    ]
+}
